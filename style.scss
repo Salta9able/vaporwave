@@ -1,0 +1,30 @@
+:root {
+  --cyan: #49d0ff;
+  --pink: #fe74ff;
+  --darkpurple: #17063a;
+  --yellow: #c4763a;
+  --bg: #3743a9;
+  --purple: #7a61d7;
+  --peach: #e05170;
+}
+
+body {
+  font-family: "Josefin Slab", serif;
+  font-family: "VT323", monospace;
+}
+
+.container {
+  background: var(--bg);
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.page1,
+.page2 {
+  height: 500px;
+  width: 240px;
+  border-radius: 20px;
+}
